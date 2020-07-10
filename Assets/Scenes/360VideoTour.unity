@@ -396,6 +396,8 @@ GameObject:
   - component: {fileID: 68643258}
   - component: {fileID: 68643257}
   - component: {fileID: 68643261}
+  - component: {fileID: 68643263}
+  - component: {fileID: 68643262}
   m_Layer: 5
   m_Name: CAtoLRHotspot
   m_TagString: Untagged
@@ -561,6 +563,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &68643262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68643255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 68643263}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 68643263}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &68643263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68643255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &73945092
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +874,8 @@ GameObject:
   - component: {fileID: 111126856}
   - component: {fileID: 111126855}
   - component: {fileID: 111126859}
+  - component: {fileID: 111126861}
+  - component: {fileID: 111126860}
   m_Layer: 5
   m_Name: LRtoCUHotspot
   m_TagString: Untagged
@@ -982,6 +1041,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &111126860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111126853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &111126861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111126853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 111126860}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 111126860}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &125234893
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1110,8 @@ GameObject:
   - component: {fileID: 125234896}
   - component: {fileID: 125234895}
   - component: {fileID: 125234899}
+  - component: {fileID: 125234900}
+  - component: {fileID: 125234901}
   m_Layer: 5
   m_Name: CUtoCAHotspot
   m_TagString: Untagged
@@ -1161,6 +1277,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &125234900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125234893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &125234901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125234893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 125234900}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 125234900}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &164181256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1592,8 @@ GameObject:
   - component: {fileID: 251822676}
   - component: {fileID: 251822675}
   - component: {fileID: 251822679}
+  - component: {fileID: 251822680}
+  - component: {fileID: 251822681}
   m_Layer: 5
   m_Name: CUtoMZHotspot
   m_TagString: Untagged
@@ -1586,6 +1759,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &251822680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251822673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &251822681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251822673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 251822680}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 251822680}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &360637308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,6 +1995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 0}
 --- !u!114 &364678970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,7 +2279,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 397032309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &397032317
@@ -2452,6 +2681,8 @@ GameObject:
   - component: {fileID: 690423360}
   - component: {fileID: 690423359}
   - component: {fileID: 690423363}
+  - component: {fileID: 690423365}
+  - component: {fileID: 690423364}
   m_Layer: 5
   m_Name: CUtoLRHotspot
   m_TagString: Untagged
@@ -2617,6 +2848,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &690423364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690423357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 690423365}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 690423365}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &690423365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690423357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696734722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3487,7 +3773,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1197716498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1197716502
@@ -3816,6 +4102,17 @@ MonoBehaviour:
           m_StringArgument: CA
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1206523773}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1206523778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3862,7 +4159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206523773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1206523781
@@ -3877,7 +4174,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates: []
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1206523780}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1206523780}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1323184306
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,6 +4421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 0}
 --- !u!1 &1349794735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4108,6 +4436,8 @@ GameObject:
   - component: {fileID: 1349794738}
   - component: {fileID: 1349794737}
   - component: {fileID: 1349794741}
+  - component: {fileID: 1349794743}
+  - component: {fileID: 1349794742}
   m_Layer: 5
   m_Name: CAtoCUHotspot
   m_TagString: Untagged
@@ -4273,6 +4603,61 @@ MonoBehaviour:
   cuInfo1: {fileID: 94848044}
   mzInfo1: {fileID: 1329161633}
   mzInfo2: {fileID: 1584236687}
+--- !u!114 &1349794742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349794735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1349794743}
+          m_MethodName: ButtonScaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1349794743}
+          m_MethodName: ButtonScaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1349794743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349794735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8618f244638fa47d288e864eb3e4f459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383214645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4979,6 +5364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b166011db1be048cb9182105dbd4bd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 0}
 --- !u!1001 &1598241665
 PrefabInstance:
   m_ObjectHideFlags: 0
