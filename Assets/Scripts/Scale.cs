@@ -1,7 +1,7 @@
 using UnityEngine;
 
-///<summary>Handles Button Animation.</summary>
-public class ButtonScale : MonoBehaviour
+///<summary>Handles Button Scaling Animation.</summary>
+public class Scale : MonoBehaviour
 {
     private Transform button;
 
@@ -13,7 +13,7 @@ public class ButtonScale : MonoBehaviour
     ///<summary>Triggers button scale up animation.</summary>
     public void ButtonScaleUp()
     {
-        button.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        button.localScale = new Vector3(1.5f, 1.5f, 1.5f);
     }
 
     ///<summary>Triggers button scale down animation.</summary>
